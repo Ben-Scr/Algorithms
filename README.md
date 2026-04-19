@@ -1,1 +1,2 @@
-These is not build for performance or anything like that, just a few implementations for certain algorithms..
+# Algorithms
+This project is primarily a personal learning project and is not intended for use in real-world applications.
