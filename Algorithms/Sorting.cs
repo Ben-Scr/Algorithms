@@ -93,15 +93,3 @@ public static class Sorting
         return i + 1;
     }
 
-    public static void Reverse<T>(T[] values)
-    {
-        T[] copyArray = new T[values.Length];
-        Array.Copy(values, copyArray, values.Length);
-
-        for (int i = 0, j = values.Length - 1; i < values.Length; i++, j--)
-        {
-            values[i] = copyArray[j];
-        }
-    }
-}
-
